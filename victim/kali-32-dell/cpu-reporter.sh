@@ -1,25 +1,25 @@
 #!/bin/bash
 
-#show cpu usage before pings
-echo mpstat >> cpu-stats.xlsx
+#variable declaration
+x=0
 
-#show cpu usage while getting pinged
-echo mpstat >> cpu-stats.xlsx
+#code
+while [ $x -lt 1 ]; do
+	#show cpu usage before pings
+	mpstat >> cpu-stats.xlsx
 
-#show cpu usage after getting pinged
-#35536
-echo mpstat 10 35536 >> cpu-stats.xlsxi
+	#show cpu usage after getting pinged
+	#35536
+	mpstat 10 35536 >> cpu-stats.xlsx
 
-#65536
-echo mpstat 10 65536 >> cpu-stats.xlsx
+	#65536
+	mpstat 10 65536 >> cpu-stats.xlsx
 
-#95536
-echo mpstat 10 95536 >> cp
+	#95536	
+	mpstat 10 95536 >> cpu-stats.xlsx
 
-#add space line
-echo "\n" >> cpu-stats.xlsx
-
-#add to git
-git add .
-git commit -m "adding cpu stats to excel"
-git push origin master
+	#add to git
+	git add .
+	git commit -m "adding cpu stats to excel"
+	git push origin master
+done
