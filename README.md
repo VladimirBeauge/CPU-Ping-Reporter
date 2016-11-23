@@ -1,6 +1,6 @@
 # Ping Reporter
 The objective of this project is to aggregate CPU and ping data in order to compare CPU performance based on pings to a machine.
-Specifically, I used mpstat to report on CPU data from different IPs and same IP with a total of 16 situation .
+Specifically, I used mpstat to report on CPU data from different IPs and same IP with a total of 16 situations.
 
 <<<<<<< HEAD
 =======
