@@ -20,22 +20,25 @@ The metrics used for this tool
 ## Machines
 ### ubun-64-digO
 ubuntu 64 bit digital ocean droplet
-	+ CPU
-	+ Model
-	+ OS Version
+#### CPU
+#### Model
+#### OS Version
+
 ### ubun-64-wind
 ubuntu 64 bit bash shell on windows 10
-	+ CPU
-	+ Model
-	+ OS Version
+#### CPU
+#### Model
+#### OS Version
+
 ### kali-32-tosh
 kali linux 32 bit on a toshiba computer
-	+ CPU
-	+ Model
-	+ OS Version
+#### CPU
+#### Model
+#### OS Version
+
 ### kali-32-dell
 kali linux 32 bit on a dell computer
 #### CPU
-	+ Model
-	+ OS Version
+#### Model
+#### OS Version
 
