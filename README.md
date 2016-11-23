@@ -16,7 +16,6 @@ The metrics used for this tool
 ### %gnice
 ### %idle
 
-
 ## Machines
 ### ubun-64-digO
 ubuntu 64 bit digital ocean droplet
@@ -41,4 +40,3 @@ kali linux 32 bit on a dell computer
 #### CPU
 #### Model
 #### OS Version
-
