@@ -1,16 +1,10 @@
 #!/bin/bash
 
-#variable declaration
-x=0
+#ping below threshold 35536
+ping -c 35536 192.168.0.4 >> ping-receipt-3556.xlsx
 
-#code
-while [ $x -lt 1 ]; do
-	#ping below threshold 35536
-	ping -c 35536 192.168.0.4
-
-	#ping at threshold 65536
-	ping -c 65536 192.168.0.4
+#ping at threshold 65536
+ping -c 65536 192.168.0.4 >> ping-receipt-65536.xlsx
 	
-	#ping before threshold 95536
-	ping -c 95536 192.168.0.4
-done
+#ping before threshold 95536
+ping -c 95536 192.168.0.4 >> ping-receipt-95536.xlsx
