@@ -31,8 +31,6 @@ kali linux 32 bit on a dell computer
 #### CPU
 #### Model
 #### OS Version
-<<<<<<< HEAD
-=======
 
 ## mpstat
 The metrics used for this tool found using the man pages
