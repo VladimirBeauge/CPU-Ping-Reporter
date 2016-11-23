@@ -2,14 +2,11 @@
 The objective of this project is to aggregate CPU and ping data in order to compare CPU performance based on pings to a machine.
 Specifically, I used mpstat to report on CPU data from different IPs and same IP with a total of 16 situations.
 
-<<<<<<< HEAD
-=======
 ## Course of Action
 1. Set up all 4 machines with mpstat and ssh
 2. Run cpu reporter script then run ping script 
 3. Analyze data on excel spread sheets to compare mpstat metric over time with respect to the pings for all permutations
 
->>>>>>> 4c163c4e229af0e3ac2f3122ff0c92e1f93665ff
 ## Machines
 ### ubun-64-digO
 ubuntu 64 bit digital ocean droplet
@@ -50,4 +47,3 @@ The metrics used for this tool found using the man pages
 ### %guest, show the percentage of time spent by the CPU/CPUs to run a virtual processor
 ### %gnice, show the percentage of time spent by the CPU/CPUs to run a niced guest
 ### %idle, show the percentage of time spent by the CPU/CPUs were idle and the system did not have an outstanding disk I/O request
->>>>>>> 4c163c4e229af0e3ac2f3122ff0c92e1f93665ff
