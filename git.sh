@@ -4,7 +4,7 @@
 git add .
 
 #write commit message
-git commit -m "cpu reporter stats"
+git commit -m "update"
 
 #push changes
 git push origin master
