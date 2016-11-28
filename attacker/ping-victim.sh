@@ -8,3 +8,4 @@ ping -c 65536 192.168.0.4 >> ping-receipt-65536.xlsx
 	
 #ping before threshold 95536
 ping -c 95536 192.168.0.4 >> ping-receipt-95536.xlsx
+
