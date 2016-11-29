@@ -1,5 +1,5 @@
 # Ping Reporter
-The objective of this project is to compare CPU and ping data in order to compare CPU performance based on pings to a machine.
+The objective of this project is to compare CPU usage and ping response data in order to compare CPU performance based on pings to a machine.
 
 ## Experiment 1
 ### This should compare the CPU usage of the machine doing the pinging
