@@ -1,3 +1,3 @@
 #!/bin/bash
 
-mpstat 5 100000 >> cpu-reporter-same-line-home.xlsx
+mpstat 10 100000 >> cpu-rep-same-home-max.xlsx
