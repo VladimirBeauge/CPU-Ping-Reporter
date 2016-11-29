@@ -1,47 +1,55 @@
-# Ping Reporter
-The objective of this project is to aggregate CPU and ping data in order to compare CPU performance based on pings to a machine.
-Specifically, I used mpstat to report on CPU data from different IPs and same IP with a total of 16 situations.
+# CPU Ping Reporter
+The objective of this project is to compare CPU usage and ping response data in order to compare CPU performance based on pings to a machine.
 
-## Course of Action
-1. Set up all 4 machines with mpstat and ssh
+## Tools used for project
+### mpstat, ping, hping3
+
+## Experiment 1
+### This should compare the CPU usage of the machine doing the pinging
+1. Compare CPU usage while pinging self on home network and school network depending on movability
+2. Run mpstat script then run ping script
+3. Graph and analyze data
+4. Machine A - C works with attacker and victim
+5. Machine D only works with home network
+
+## Experiment 2
+### This should compare the CPU usage of the machine while getting pinged
+1. Compare CPU usage while pinging one computer on home and school network
 2. Run cpu reporter script then run ping script 
-3. Analyze data on excel spread sheets to compare mpstat metric over time with respect to the pings for all permutations
+3. Graph and analyze data
+
+## Results
+TBA
 
 ## Machines
-### ubun-64-digO
+### (A) ubun-64-digO
 ubuntu 64 bit digital ocean droplet
+#### Portability
 #### CPU
 #### Model
 #### OS Version
+#### Security
 
-### ubun-64-wind
-ubuntu 64 bit bash shell on windows 10
+### (B) ubun-64-wind
+windows 64 bit bash shell
+#### Portability
 #### CPU
 #### Model
 #### OS Version
+#### Security
 
-### kali-32-tosh
+### (C) kali-32-tosh
 kali linux 32 bit on a toshiba computer
+#### Portability
 #### CPU
 #### Model
 #### OS Version
+#### Security
 
-### kali-32-dell
+### (D) kali-32-dell
 kali linux 32 bit on a dell computer
+#### Portability
 #### CPU
 #### Model
 #### OS Version
-
-## mpstat
-The metrics used for this tool found using the man pages
-### CPU, processors number
-### %usr, show the percentage of CPU utilization that occurred while executing at the user level
-### %nice, show the percentage of CPU utilization that occurred while executing at the user level with nice priority
-### %sys, show the percentage of CPU utilization that occurred while executing at the system level(kernel)
-### %iowait, show the percentage of time that the CPU/CPUs were idle during which the system had an outstanding disk I/O request
-### %irq, show the percentage of time spent by the CPU/CPUs to service hardware interrupts
-### %soft, show the percentage of time spent by the CPU/CPUs to service software interrupts
-### %steal, show the percentage of time spent in involuntary wait by the virtual CPU/CPUs while the hypervisor was servicing another virtual processor
-### %guest, show the percentage of time spent by the CPU/CPUs to run a virtual processor
-### %gnice, show the percentage of time spent by the CPU/CPUs to run a niced guest
-### %idle, show the percentage of time spent by the CPU/CPUs were idle and the system did not have an outstanding disk I/O request
+#### Security
