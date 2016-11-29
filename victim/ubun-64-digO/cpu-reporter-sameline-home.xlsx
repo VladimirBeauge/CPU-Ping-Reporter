@@ -1,0 +1,6 @@
+Linux 4.4.0-47-generic (myLocalFarm.localdomain) 	11/28/2016 	_x86_64_	(1 CPU)
+
+08:16:16 PM  CPU    %usr   %nice    %sys %iowait    %irq   %soft  %steal  %guest  %gnice   %idle
+08:16:21 PM  all    0.20    0.00    0.40    0.00    0.00    0.00    0.20    0.00    0.00   99.20
+08:16:26 PM  all    2.01    0.00    1.20    0.00    0.00    0.00    0.20    0.00    0.00   96.59
+08:16:31 PM  all    0.60    0.00    0.60    0.00    0.00    0.00    0.20    0.00    0.00   98.61
