@@ -6,11 +6,12 @@ The objective of this project is to compare CPU usage and ping response data in 
 
 ## Experiment 1
 ### This should compare the CPU usage of the machine doing the pinging
-1. Compare CPU usage while pinging self on home network and school network depending on movability
+1. Compare CPU usage while pinging self using random IPs on home network and school network depending on movability
 2. Run mpstat script then run ping script
 3. Graph and analyze data
 4. Machine A - C works with attacker and victim
 5. Machine D only works with home network
+6. Machine B uses ping instead of hping3 because of windows 
 
 ## Experiment 2
 ### This should compare the CPU usage of the machine while getting pinged
@@ -30,11 +31,12 @@ ubuntu 64 bit digital ocean droplet
 #### OS Version
 #### Security
 
-### (B) ubun-64-wind
+### (B) wind-64-bash
 windows 64 bit bash shell
 #### Portability
 #### CPU
 #### Model
+
 #### OS Version
 #### Security
 
