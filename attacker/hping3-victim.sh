@@ -1,3 +1,3 @@
 #!/bin/bash
 
-hping3 --flood ip  >> hping3-rec-<line>-<location>.xlsx
+hping3 -q --flood --rand-source <ip> >> hping3-rec-<line>-<loc>.xlsx
