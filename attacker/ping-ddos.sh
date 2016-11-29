@@ -1,3 +1,3 @@
 #!/bin/bash
 
-ping -c 100000 192.168.0.4 >> ping-ddos-<line>-<location>.xlsx
+ping -s <ip> >> <size>-ping-ddos-<line>-<location>.xlsx
