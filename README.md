@@ -1,4 +1,4 @@
-# CPU Ping Reporter
+#CPU Ping Reporter
 The objective of this project is to compare CPU usage and ping response data in order to compare CPU performance based on pings to a machine.
 
 ## Tools used for project
