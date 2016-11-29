@@ -1,18 +1,17 @@
 # Ping Reporter
-The objective of this project is to aggregate CPU and ping data in order to compare CPU performance based on pings to a machine.
-Specifically, I used mpstat to report on CPU data from different IPs and same IP with a total of 16 situations.
+The objective of this project is to compare CPU and ping data in order to compar CPU performance based on pings to a machine.
 
 ## Experiment 1
-### This should compare the CPU usage of pinging
+### This should compare the CPU usage of the machine doing the pinging
 1. Compare CPU usage while pinging self on home network and school network
 2. Run mpstat script then run ping script
-3. Use data to make graphs
+3. Graph and analyze data
 
 ## Experiment 2
-### This should compare the CPU usage of a computer while getting "attacked"
+### This should compare the CPU usage of the machine while getting pinged
 1. Compare CPU usage while pinging one computer on home and school network
 2. Run cpu reporter script then run ping script 
-3. Analyze data on excel spread sheets to compare mpstat metric over time with respect to the pings for all permutations
+3. Graph and analyze data
 
 ## Results
 
