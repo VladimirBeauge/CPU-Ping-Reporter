@@ -1,8 +1,5 @@
 #!/bin/bash
 
-#pull from branch
-git pull origin master
-
 #add to branch
 git add .
 
