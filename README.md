@@ -31,7 +31,7 @@ The objective of this project is to compare CPU usage data in response to ping a
 ## Experiment 5
 ### This should compare the CPU usuage of the machine while getting a DDOSed "script kiddie stuff"
 1. Run mpstat on machine C for 10 minutes to collect data on CPU behavior
-2. Use metasploit on machine C for 2 hours (https://www.youtube.com/watch?v=yxAhrUAvjo0)
+2. Use metasploit on machine C for 2 hours
 3. Keep runing mpstat on machine C for 10 minutes to collect data on CPU behavior
 
 ## Results
