@@ -1,22 +1,22 @@
 #CPU Ping Reporter
 The objective of this project is to demonstrate CPU usage data in response to ping attacks and tool on the machine sending them out.
 
-## Experiment 1 
-### This should show the CPU usage while doing a ping flood to my machine on a school network
+# Experiment 1 
+## This should show the CPU usage while doing a ping flood to my machine on a school network
 1. Run mpstat on machines A and B for 20 minutes to collect data on CPU behavior prior
 2. Use hping3 on machine A to hit machine B for 1 hour
 3. Keep running mpstat for 20 minutes to collect data on CPU behavior
 4. Repeat 3 times
 
-## Experiment 2
-### This should show the CPU usage while pinging different packet sizes
+# Experiment 2
+## This should show the CPU usage while pinging different packet sizes
 1. Run mpstat on all machines for 20 minutes to collect data on CPU behavior
 2. Use hping3 on machine A to hit machine B for 1 hour at packet size 64, 32800, 65536
 3. Keep running mpstat for 20 minutes to collect data on CPU behavior
 4. Repeat 3 times EACH
 
-## Experiment 3
-### This should compare the CPU usuage of the machine while getting a DDOS attack using Metasploit
+# Experiment 3
+## This should compare the CPU usuage of the machine while getting a DDOS attack using Metasploit
 1. Run mpstat on all machines for 20 minutes to collect data on CPU behavior
 2. Use metasploit on machine A to hit machine B for 1 hour
 3. Keep running mpstat for 20 minutes to collect data on CPU behavior
@@ -29,15 +29,12 @@ The objective of this project is to demonstrate CPU usage data in response to pi
 ## %steal: show the percentage of time spent in involuntary wait by the virtual CPU(s) while the hypervisor was servicing another virtual processor
 ## %idle: show the percentage of time that the CPU(s) were idle and the system did not have an outstanding disk I/O request
 
-# Results
-TBA
-
 # Tools 
 ## Software
 ### mpstat, hping3, git
 
-## Machines
-### (A) kali-32-tosh: kali linux 32 bit on a toshiba computer
+## Hardware
+### Machine (A)
 #### CPU Arch       : x86_64
 #### CPU(s)         : 2
 #### Vendor ID      : GenuineIntel
@@ -47,7 +44,7 @@ TBA
 #### Socket(s)      : 1
 #### OS Version     : Kali GNU/Linux Rolling
 
-### (B) ubun-64-digO: ubuntu 64 bit digital ocean droplet
+### Machine (B)
 #### CPU Arch       : x86_64
 #### CPU Cores      : 1
 #### Vendor ID      : GenuineIntel
