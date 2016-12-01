@@ -1,3 +1,3 @@
-curl https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfupdate.erb > msfinstall && \
-  chmod 755 msfinstall && \
-  ./msfinstall
+chmod +x metasploit-latest-linux-x64-installer.run
+./metasploit-latest-linux-x64-installer.run
+sudo apt-get install postgreSQL rubygems libpq-dev libreadline-dev ruby-dev
