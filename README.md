@@ -77,3 +77,5 @@ kali linux 32 bit on a dell computer
 Ideas that could flesh out the project even more but I cannot now because of time contraints
 ### Include Router info: temp(B/A), make, model
 ### Run project multiple times on school network
+### Incorporate WireShark, Zenmap etc
+### Create online web attack to attack and recieve data from using autorun
