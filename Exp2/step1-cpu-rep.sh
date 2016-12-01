@@ -1,5 +1,4 @@
 #!/bin/bash
 
 #show cpu usage after getting pinged
-mpstat 5 100000 >> data-cpu-exp<num>-<location>.xlsx
-
+mpstat 60 100000 >> data-<set>-cpu-exp1-<location>.xlsx
