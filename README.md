@@ -9,35 +9,35 @@ The objective of this project is to compare CPU usage data in response to ping a
 1. Run mpstat on machine A and B for 10 minutes to collect data on CPU behavior
 2. Use hping3 on machine A and B for 2 hours to flood random IPs
 3. Keep running mpstat on machine A and B for 10 minutes to collect data on CPU behavior
-4. Repeat 3 times
+4. Repeat 3 times with 20 minute intervals
 
 ## Experiment 2
 ### This should compare the CPU usage of the machine doing the pinging at 3 large packet sizes at both home and school network
 1. Run mpstat on machine A and B for 10 minutes to collect data on CPU behavior
 2. Use ping on machine A and B for 2 hours to hit random IPs at 3 packet sizes: 21833, 43666, and 65500
 3. Keep running mpstat on machine A and B for 10 minutes to collect data on CPU behavior
-4. Repeat 3 times
+4. Repeat 3 times with 20 minute intervals
 
 ## Experiment 3
 ### This should compare the CPU usage of the machine while getting flooded by pings at both home and school network
 1. Run mpstat on machine C for 10 minutes to collect data on CPU behavior
 2. Use hping3 on machine A and B for 2 hours to flood machine C
 3. Keep running mpstat on machine A and B for 10 minutes to collect data on CPU behavior
-4. Repeat 3 times
+4. Repeat 3 times with 20 minute intervals
 
 ## Experiemnt 4
 ### This should compare the CPU usage of the machine while getting pinged by 3 packet sizes at both home and school network
 1. Run mpstat on machine C for 10 minutes to collect data on CPU behavior
 2. Use ping on machine A and B for 2 hours to hit random IPs at 3 packet sizes: 21833, 43666, and 65500
 3. Keep running mpstat on machine A and B for 10 minutes to collect data on CPU behavior
-4. Repeat 3 times
+4. Repeat 3 times with 20 minute intervals
 
 ## Experiment 5
 ### This should compare the CPU usuage of the machine while getting a DDOS attack using Metasploit
 1. Run mpstat on machine C for 10 minutes to collect data on CPU behavior
 2. Use metasploit on machine C for 2 hours
 3. Keep running mpstat on machine A and B for 10 minutes to collect data on CPU behavior
-4. Repeat 3 times
+4. Repeat 3 times with 20 minute intervals
 
 ## Results
 TBA
