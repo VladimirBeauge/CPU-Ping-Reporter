@@ -54,8 +54,8 @@ TBA
 ubuntu 64 bit digital ocean droplet
 #### CPU Arch   :  x86_64
 #### CPU Cores  : 1
-### Vendor ID   : GenuineIntel
-### Model Name  : Intel(R) Xeon(R) CPU E5-2650L v3
+#### Vendor ID  : GenuineIntel
+#### Model Name : Intel(R) Xeon(R) CPU E5-2650L v3
 #### CPU Freq   : 1797.917
 #### BogoMips   : 3595.83
 #### Socket(s)  : 
@@ -65,8 +65,8 @@ ubuntu 64 bit digital ocean droplet
 kali linux 32 bit on a toshiba computer
 #### CPU Arch   : x86_64
 #### CPU(s)     : 2
-### Vendor ID   : GenuineIntel
-### Model Name  : Intel(R) Core(TM)2 Duo CPU T7700
+#### Vendor ID  : GenuineIntel
+#### Model Name : Intel(R) Core(TM)2 Duo CPU T7700
 #### CPU Freq   : 2401.000
 #### BogoMips   : 4788.12
 #### Socket(s)  : 1
@@ -76,8 +76,8 @@ kali linux 32 bit on a toshiba computer
 kali linux 32 bit on a dell computer
 #### CPU Arch   :
 #### CPU Cores  :
-### Vendor ID   :
-### Model Name  :
+#### Vendor ID  :
+#### Model Name :
 #### CPU Freq   :
 #### Socket(s)  :
 #### OS Version :
