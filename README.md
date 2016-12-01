@@ -1,9 +1,6 @@
 #CPU Ping Reporter
 The objective of this project is to demonstrate CPU usage data in response to ping attacks and tool on the machine sending them out.
 
-## Tools used for project
-### mpstat, hping3
-
 ## Experiment 1 
 ### This should show the CPU usage of the machine doing a ping flood to 192.0.43.10 on both a home and school network
 1. Run mpstat on machine A and B for 10 minutes to collect data on CPU behavior
@@ -37,15 +34,30 @@ The objective of this project is to demonstrate CPU usage data in response to pi
 3. Keep running mpstat on machine A and B for 10 minutes to collect data on CPU behavior
 4. Repeat 3 times
 
-## Results
+# Analyzing Data from mpstat: %usr, %sys, %soft, %steal, %idle
+## %usr
+### shows the percentage of CPU utilization that occurred while executing at the user level
+## %sys
+### show the percentage of CPU utilization that occurred while executing at the system level
+## %soft
+### show the percentage of time spent by the CPU(s) to service software interrupts
+## %steal
+### show the percentage of time spent in involuntary wait by the virtual CPU(s) while the hypervisor was servicing another virtual processor
+## %idle
+### show the percentage of time that the CPU(s) were idle and the system did not have an outstanding disk I/O request
+
+# Results
 TBA
 
-## Networks
-### Home
+# Tools used for project
+### mpstat, hping3
+
+### Networks
+#### Home
 1. Isolated very few devices running
 2. Class C
 
-### School
+#### School
 1. Crowded used by entire school
 2. Class ...
 
@@ -79,7 +91,7 @@ TBA
 #### Socket(s)      :
 #### OS Version     :
 
-## Ways to Imporve Project for the Future
+# Ways to Imporve Project for the Future
 Ideas that could flesh out the project even more but I cannot now because of time contraints
 ### Include Router info: temp(B/A), make, model
 ### Run project multiple times on school network
