@@ -15,7 +15,7 @@ The objective of this project is to demonstrate how pings may affect CPU perform
 4. Repeat 3 times EACH
 
 # Experiment 3
-## This should measure the CPU usuage while sending a DDOS attack through Metasploit
+## This should measure the CPU usage while undergoing a DDOS attack through Metasploit
 1. Run mpstat on all machines for 20 minutes to collect data on CPU behavior
 2. Use metasploit on machine A to hit machine B for 1 hour
 3. Keep running mpstat for 20 minutes to collect data on CPU behavior
