@@ -67,10 +67,11 @@ TBA
 
 # Ways to Imporve Project for the Future
 Ideas that could flesh out the project even more but I cannot now because of time contraints
-### Include Router info: temp(B/A), make, model
+### Include Router info: temp(Before /After), make, model
 ### Run project multiple times on school network
 ### Incorporate WireShark, Zenmap etc
 ### Create online web app to attack and recieve data from using autorun
 ### use crontabs -_-
 ### Make a connection between time between pings
 ### Use faster/updated hardware
+### Vary packet types: TCP, SYN, etc
