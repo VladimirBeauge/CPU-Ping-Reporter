@@ -1,5 +1,4 @@
 Linux 4.0.0-kali1-amd64 (hyrule) 	11/30/2016 	_x86_64_	(2 CPU)
-
 10:05:14 PM  CPU    %usr   %nice    %sys %iowait    %irq   %soft  %steal  %guest  %gnice   %idle
 10:06:14 PM  all    0.34    0.00    0.32   75.18    0.00    0.02    0.00    0.00    0.00   24.15
 10:07:14 PM  all    0.23    0.00    0.18   53.92    0.00    0.03    0.00    0.00    0.00   45.63
