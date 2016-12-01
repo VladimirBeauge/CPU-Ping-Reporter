@@ -1,5 +1,5 @@
 #CPU Ping Reporter
-The objective of this project is to compare CPU usage data in response to ping attacks.
+The objective of this project is to compare CPU usage data in response to ping attacks and tool on the machine sending them out.
 
 ## Tools used for project
 ### mpstat, hping3
