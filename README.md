@@ -87,3 +87,4 @@ Ideas that could flesh out the project even more but I cannot now because of tim
 ### Create online web app to attack and recieve data from using autorun
 ### use crontabs -_-
 ### Make a connection between time between pings
+### Use faster/update hardware
