@@ -23,26 +23,18 @@ The objective of this project is to demonstrate CPU usage data in response to pi
 4. Repeat 3 times
 
 # Analyzing Data from mpstat: %usr, %sys, %soft, %steal, %idle
-## %usr
-### shows the percentage of CPU utilization that occurred while executing at the user level
-## %sys
-### show the percentage of CPU utilization that occurred while executing at the system level
-## %soft
-### show the percentage of time spent by the CPU(s) to service software interrupts
-## %steal
-### show the percentage of time spent in involuntary wait by the virtual CPU(s) while the hypervisor was servicing another virtual processor
-## %idle
-### show the percentage of time that the CPU(s) were idle and the system did not have an outstanding disk I/O request
+## %usr: shows the percentage of CPU utilization that occurred while executing at the user level
+## %sys: show the percentage of CPU utilization that occurred while executing at the system level
+## %soft: show the percentage of time spent by the CPU(s) to service software interrupts
+## %steal: show the percentage of time spent in involuntary wait by the virtual CPU(s) while the hypervisor was servicing another virtual processor
+## %idle: show the percentage of time that the CPU(s) were idle and the system did not have an outstanding disk I/O request
 
 # Results
 TBA
 
-# Tools used for project
-### mpstat, hping3
-
-### Networks
-#### Crowded ...
-#### Class ...
+# Tools 
+## Software
+### mpstat, hping3, git
 
 ## Machines
 ### (A) kali-32-tosh: kali linux 32 bit on a toshiba computer
@@ -66,7 +58,7 @@ TBA
 #### OS Version     : Ubuntu 16.04.1 LTS
 
 # Ways to Imporve Project for the Future
-Ideas that could flesh out the project even more but I cannot now because of time contraints
+Ideas that could flesh out the project even more but I cannot now because of time/finals
 ### Include Router info: temp(Before /After), make, model
 ### Run project multiple times on school network
 ### Incorporate WireShark, Zenmap etc
