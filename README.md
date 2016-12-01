@@ -1,7 +1,7 @@
 #CPU Ping Reporter
 The objective of this project is to demonstrate how pings may affect CPU performance of the "attacker" and "victim
 # Experiment 1 
-## This should measure the CPU usage during a ping flood
+## This should measure the CPU usage during a single ping flood
 1. Run mpstat on machines A and B for 20 minutes to collect data on CPU behavior prior
 2. Use hping3 on machine A to hit machine B for 1 hour
 3. Keep running mpstat for 20 minutes to collect data on CPU behavior
