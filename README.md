@@ -2,35 +2,23 @@
 The objective of this project is to demonstrate CPU usage data in response to ping attacks and tool on the machine sending them out.
 
 ## Experiment 1 
-### This should show the CPU usage of the machine doing a ping flood to 192.0.43.10 on both a home and school network
-1. Run mpstat on machine A and B for 10 minutes to collect data on CPU behavior
-2. Use hping3 on machine A and B for 1 hour to hit 192.0.43.10
-3. Keep running mpstat on machine A and B for 10 minutes to collect data on CPU behavior
+### This should show the CPU usage while doing a ping flood on both a home and school network
+1. Run mpstat on alls machines for 20 minutes to collect data on CPU behavior prior
+2. Use hping3 on machine A and B for 1 hour to hit machine C
+3. Keep running mpstat for 20 minutes to collect data on CPU behavior
 4. Repeat 3 times
 
 ## Experiment 2
-### This should show the CPU usage of the machine pinging large packet sizes on both a home and school network
-1. Run mpstat on machine A and B for 10 minutes to collect data on CPU behavior
-2. Use hping3 on machine A and B for 1 hour to hit 192.0.43.10 at 3 packet sizes: a, b, c
-3. Keep running mpstat on machine A and B for 10 minutes to collect data on CPU behavior
-
-## Experiment 3
-### This should show the CPU usage of the machine while getting flooded by pings at both home and school network
-1. Run mpstat on machine C for 10 minutes to collect data on CPU behavior
-2. Use hping3 on machine A and B for 1 hour to flood machine C
-3. Keep running mpstat on machine A and B for 10 minutes to collect data on CPU behavior
-
-## Experiemnt 4
-### This should show the CPU usage of the machine while getting pinged by 3 packet sizes at both home and school network
-1. Run mpstat on machine C for 10 minutes to collect data on CPU behavior
+### This should show the CPU usage while pinging different packet sizes on both a home and school network
+1. Run mpstat on all machines for 20 minutes to collect data on CPU behavior
 2. Use hping3 on machine A and B for 1 hour to hit machine C at 3 packet sizes: 21833, 43666, and 65500
-3. Keep running mpstat on machine A and B for 10 minutes to collect data on CPU behavior
+3. Keep running mpstat for 20 minutes to collect data on CPU behavior
 4. Repeat 3 times
 
-## Experiment 5
+## Experiment 4
 ### This should compare the CPU usuage of the machine while getting a DDOS attack using Metasploit
 1. Run mpstat on machine A, B, C for 10 minutes to collect data on CPU behavior
-2. Use metasploit on machine C for 1 hour
+2. Use metasploit on machine A and B for 1 hour to attack machine C
 3. Keep running mpstat on machine A and B for 10 minutes to collect data on CPU behavior
 4. Repeat 3 times
 
