@@ -50,37 +50,34 @@ TBA
 2. Class ...
 
 ## Machines
-### (A) ubun-64-digO
-ubuntu 64 bit digital ocean droplet
-#### CPU Arch   :  x86_64
-#### CPU Cores  : 1
-#### Vendor ID  : GenuineIntel
-#### Model Name : Intel(R) Xeon(R) CPU E5-2650L v3
-#### CPU Freq   : 1797.917
-#### BogoMips   : 3595.83
-#### Socket(s)  : 
-#### OS Version : Ubuntu 16.04.1 LTS
+### (A) ubun-64-digO: ubuntu 64 bit digital ocean droplet
+#### CPU Arch       : x86_64
+#### CPU Cores      : 1
+#### Vendor ID      : GenuineIntel
+#### Model Name     : Intel(R) Xeon(R) CPU E5-2650L v3
+#### CPU Freq       : 1797.917
+#### BogoMips       : 3595.83
+#### Socket(s)      : 
+#### OS Version     : Ubuntu 16.04.1 LTS
 
-### (B) kali-32-tosh
-kali linux 32 bit on a toshiba computer
-#### CPU Arch   : x86_64
-#### CPU(s)     : 2
-#### Vendor ID  : GenuineIntel
-#### Model Name : Intel(R) Core(TM)2 Duo CPU T7700
-#### CPU Freq   : 2401.000
-#### BogoMips   : 4788.12
-#### Socket(s)  : 1
-#### OS Version : Kali GNU/Linux Rolling
+### (B) kali-32-tosh: kali linux 32 bit on a toshiba computer
+#### CPU Arch       : x86_64
+#### CPU(s)         : 2
+#### Vendor ID      : GenuineIntel
+#### Model Name     : Intel(R) Core(TM)2 Duo CPU T7700
+#### CPU Freq       : 2401.000
+#### BogoMips       : 4788.12
+#### Socket(s)      : 1
+#### OS Version     : Kali GNU/Linux Rolling
 
-### (C) kali-32-dell
-kali linux 32 bit on a dell computer
-#### CPU Arch   :
-#### CPU Cores  :
-#### Vendor ID  :
-#### Model Name :
-#### CPU Freq   :
-#### Socket(s)  :
-#### OS Version :
+### (C) kali-32-dell: kali linux 32 bit on a dell computer
+#### CPU Arch       :
+#### CPU Cores      :
+#### Vendor ID      :
+#### Model Name     :
+#### CPU Freq       :
+#### Socket(s)      :
+#### OS Version     :
 
 ## Ways to Imporve Project for the Future
 Ideas that could flesh out the project even more but I cannot now because of time contraints
