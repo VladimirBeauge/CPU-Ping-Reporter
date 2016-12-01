@@ -1,4 +1,3 @@
 #!/bin/bash
 
-hping3 x.x.x.x --rand-dest --interface -a --flood
-
+hping3-1 --flood -V --rand-source 192.0.43.10
