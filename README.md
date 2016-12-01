@@ -1,6 +1,5 @@
 #CPU Ping Reporter
-The objective of this project is to demonstrate CPU usage data in response to ping attacks and tool on the machine sending them out.
-
+The objective of this project is to demonstrate how pings may affect CPU performance of the "attacker" and "victim
 # Experiment 1 
 ## This should show the CPU usage while doing a ping flood to my machine on a school network
 1. Run mpstat on machines A and B for 20 minutes to collect data on CPU behavior prior
