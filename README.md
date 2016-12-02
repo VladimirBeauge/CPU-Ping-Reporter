@@ -52,7 +52,7 @@ The objective of this project is to demonstrate how pings may affect CPU perform
 #### Model Name     : Intel(R) Xeon(R) CPU E5-2650L v3
 #### CPU Freq       : 1797.917
 #### BogoMips       : 3595.83
-#### Socket(s)      : 
+#### Socket(s)      : 1
 #### OS Version     : Ubuntu 16.04.1 LTS
 
 # Ways to Imporve Project for the Future
