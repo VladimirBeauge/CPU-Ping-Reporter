@@ -25,10 +25,9 @@ The objective of this project is to demonstrate how pings may affect CPU perform
 ## %usr: shows the percentage of CPU utilization that occurred while executing at the user level
 ## %sys: show the percentage of CPU utilization that occurred while executing at the system level
 ## %iowait: show the percentage of the time that the CPU(s) were idle during which the system had an outstanding disk I/O rquest 
-## %irq: show the percentage of time spent by the CPU(s) to service hardware interrupts
 ## %soft: show the percentage of time spent by the CPU(s) to service software interrupts
-## %steal: show the percentage of time spent in involuntary wait by the virtual CPU(s) while the hypervisor was servicing another virtual processor
 ## %idle: show the percentage of time that the CPU(s) were idle and the system did not have an outstanding disk I/O request
+* Removed %irq, ..., ..., ... because they stayed constant
 
 # Tools 
 ## Software
