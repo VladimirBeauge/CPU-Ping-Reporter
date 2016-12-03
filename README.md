@@ -28,8 +28,9 @@ The objective of this project is to demonstrate how pings may affect CPU perform
 ## %soft: show the percentage of time spent by the CPU(s) to service software interrupts
 
 # Tools 
+
 ## Software
-### mpstat, hping3, git
+### mpstat, hping3, metasploit, git
 
 ## Hardware
 ### Machine (A)     : Old Laptop
