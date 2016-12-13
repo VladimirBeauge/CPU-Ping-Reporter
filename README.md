@@ -16,12 +16,17 @@ The objective of this project is to demonstrate how pings may affect CPU perform
 
 # Analyzing Data from mpstat: %usr, %sys, %iowait,%soft
 ## %usr: shows the percentage of CPU utilization that occurred while executing at the user level
+## %nice: show the percentage of CPU utilization that occurred while executing at the user level with nice priority
 ## %sys: show the percentage of CPU utilization that occurred while executing at the system level
-## %iowait: show the percentage of the time that the CPU(s) were idle during which the system had an outstanding disk I/O rquest 
+## %iowait: show the percentage of the time that the CPU(s) were idle during which the system had an outstanding disk I/O rquest
+## %irq: show the percentage of time spent by the CPU(s) to service hardware interrupts
 ## %soft: show the percentage of time spent by the CPU(s) to service software interrupts
+## %steal: show the percentage of time spent in involuntary wait by the virtual CPU(s) while the hypervisor was servicing another virtual processor
+## %guest: show the percentage of time spent by the CPU(s) to run a virtual processor
+## %gnice: show the percentage of time spent by the CPU(s) to run a niced guest 
+## %idle: show the percentage of time that the CPU(s) were idle and the system did not have an outsdanding disk I/O request
 
 # Tools 
-
 ## Software
 ### mpstat, hping3, git
 
